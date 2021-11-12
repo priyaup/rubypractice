@@ -1,19 +1,14 @@
-
-#for Loop
-
 # num = 1
 # for num in(0..5)
 # 	puts num
 # end
-
-
 
 #while loop
 
 # i=0
 # while(i<=5)
 # 	puts i
-# 	i = i+1
+# 	i = i1
 # end
 
 
@@ -36,7 +31,13 @@
 #  		puts i;
 #  	end
 #  end
-    
 
 
 
+#each loop
+
+colors = ["red" , "blue" , "green"]
+
+(colors).each do |color|
+   puts " #{color}"
+end

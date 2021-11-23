@@ -10,11 +10,16 @@ def calculate_area(length, width)
 	puts length * width
 end
 
+
+
 calculate_area(23,45)
 
 # method with default argument
-def calculate_area
+def calculate_area(length=20 , width=30)
 	puts length * width
 end
 
 calculate_area
+
+
+

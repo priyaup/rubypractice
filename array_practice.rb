@@ -40,4 +40,6 @@ arr = [73 , 98, 86, 61, 96]
  end
  puts min;
 
+ #practicing array 
+
     

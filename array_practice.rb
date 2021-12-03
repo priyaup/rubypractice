@@ -80,35 +80,36 @@
 # puts "Sum of negative number is:#{negative_sum}"
 
 
-arr = [12015, 12932, 18146, 18265]
+# arr = [12015, 12932, 18146, 18265]
 
-i = 0;
+# i = 0;
 
-b = 0;
+# j =0;
 
-j =0;
+# while ( i < arr.size)
 
-while ( i < arr.size)
+#     b = arr[i]
+#     while (j < 5)
 
-    b = arr[i]
-    while (j < 5)
+#        r = b % 10
 
-       r = b % 10
+#        b = b / 10
 
-       b = b / 10
+#       j += 1
 
-      j += 1
-
-    end
+#     end
     
 
-    i += 1
-    puts b
+#     i += 1
+#     puts b
   
-end
+# end
   
   
 
+#Merge array
+
+ arr = 
 
 
 

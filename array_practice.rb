@@ -109,7 +109,7 @@
 
 #Merge array
 
- arr = 
+ arr = Array.new
 
 
 

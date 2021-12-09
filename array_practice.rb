@@ -111,6 +111,30 @@
 
  arr = Array.new
 
+ i = 0
+
+ puts "Enter the array size here:"
+
+ array_size = gets.to_i
+
+ puts "Enter the number here:"
+
+ for i in i...array_size
+
+    number = gets.to_i
+    arr << number
+     
+ end
+ puts "array :#{arr}"
+    
+
+
+
+
+
+
+
+
 
 
 

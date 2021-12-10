@@ -105,29 +105,51 @@
   
 # end
   
-  
 
-#Merge array
+ # arr = Array.new
 
- arr = Array.new
+ # i = 0
 
- i = 0
+ # puts "Enter the array size here:"
 
- puts "Enter the array size here:"
+ # array_size = gets.to_i
 
- array_size = gets.to_i
+ # puts "Enter the number here:"
 
- puts "Enter the number here:"
+ # for i in i...array_size
 
- for i in i...array_size
-
-    number = gets.to_i
-    arr << number
+ #    number = gets.to_i
+ #    arr << number
      
- end
- puts "array :#{arr}"
+ # end
+ # puts "array :#{arr}"
     
 
+#merge 
+
+arr1 = [3,4,5]
+
+arr2 = [6,7,8]
+
+arr3 = Array.new
+
+i = 0
+
+while i < arr1.size
+
+ arr3 << arr1
+
+  i += 1
+end
+i = 0
+
+while i < arr2.size
+
+ arr3 << arr2
+
+  i += 1
+end
+puts arr3
 
 
 

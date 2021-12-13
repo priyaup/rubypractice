@@ -127,29 +127,60 @@
 
 #merge 
 
-arr1 = [3,4,5]
+# arr1 = [3,4,5]
 
-arr2 = [6,7,8]
+# arr2 = [6,7,8]
 
-arr3 = Array.new
+# arr3 = Array.new
+
+# i = 0
+
+# while i < arr1.size
+
+#  arr3 << arr1
+
+#   i += 1
+# end
+
+# i = 0
+
+# while i < arr2.size
+
+#  arr3 << arr2
+
+#   i += 1
+# end
+# puts arr3
+
+#Count the frequency of each element of array
+
+arr = [12, 12, 25, 40]
 
 i = 0
 
-while i < arr1.size
+count = 0
 
- arr3 << arr1
+while i < arr.size
 
-  i += 1
+    if( arr[i] == arr[i + 1])
+
+        count = arr[i]
+
+        puts "It is occurs 2 times #{arr[i]}"
+
+     elsif ( arr[i] != count)
+
+        puts "It is occurs only 1 times #{arr[i]}"
+
+    end
+
+    i += 1
+
 end
-i = 0
 
-while i < arr2.size
 
- arr3 << arr2
 
-  i += 1
-end
-puts arr3
+
 
 
 

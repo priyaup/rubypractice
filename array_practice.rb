@@ -10,20 +10,44 @@
 
 #Array Practice
 
-# arr = [73 , 98, 86, 61, 96]
-# i = 0;
-# max = 0;
+ arr = [73 , 98, 86, 61, 96]
 
-# while ( i < arr.size)
-#     if (arr[i] > max)
+ i = 0;
 
-#          max = arr[i]
+ max = 0;
+
+ min = 0;
+
+ c = 0;
+
+ while ( i < arr.size)
+ 
+    if (arr[i] > max)
+
+        max = arr[i]
+   
         
-#     end
-#     i = i + 1
+      elsif( min > arr[i] )
+          
+          c = arr[i]
+
+          arr[i] = min 
+
+          min = c
+
+        
+    end
+
+   i = i + 1
     
-# end
-# puts max;
+ end
+ puts "Maximum value is: #{max}";
+ puts "min value is: #{min}"
+
+ 
+ 
+
+
 
  # arr = [73 , 98, 86, 61, 96]
 
@@ -154,29 +178,29 @@
 
 #Count the frequency of each element of array
 
-arr = [12, 12, 25, 40]
+# arr = [25, 25, 25, 40]
 
-i = 0
+# i = 0
 
-count = 0
+# count = 0
 
-while i < arr.size
+# while i < arr.size
 
-    if( arr[i] == arr[i + 1])
+#     if( arr[i] == arr[i + 1])
 
-        count = arr[i]
+#         count = arr[i]
 
-        puts "It is occurs 2 times #{arr[i]}"
+#         puts "It is occurs 2 times #{arr[i]}"
 
-     elsif ( arr[i] != count)
+#      elsif ( arr[i] != count)
 
-        puts "It is occurs only 1 times #{arr[i]}"
+#         puts "It is occurs only 1 time #{arr[i]}"
 
-    end
+#     end
 
-    i += 1
+#     i += 1
 
-end
+# end
 
 
 

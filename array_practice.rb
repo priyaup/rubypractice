@@ -16,33 +16,35 @@
 
  max = 0;
 
- min = 0;
+ min = arr[0];
 
- c = 0;
 
  while ( i < arr.size)
  
     if (arr[i] > max)
 
-        max = arr[i]
+      max = arr[i]
+
+      
    
         
       elsif( min > arr[i] )
           
-          c = arr[i]
+       c = arr[i]
 
-          arr[i] = min 
+       arr[i] = min 
 
-          min = c
+      min = c
+          
+      puts "min value is: #{min}"
+      puts "Maximum value is: #{max}";
 
-        
     end
 
-   i = i + 1
+  i = i + 1
+   
     
  end
- puts "Maximum value is: #{max}";
- puts "min value is: #{min}"
 
  
  

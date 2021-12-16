@@ -10,41 +10,41 @@
 
 #Array Practice
 
- arr = [73 , 98, 86, 61, 96]
+ # arr = [73 , 98, 86, 61, 96]
 
- i = 0;
+ # i = 0;
 
- max = 0;
+ # max = 0;
 
- min = arr[0];
+ # min = arr[0];
 
 
- while ( i < arr.size)
+ # while ( i < arr.size)
  
-    if (arr[i] > max)
+ #    if (arr[i] > max)
 
-      max = arr[i]
+ #      max = arr[i]
 
       
    
         
-      elsif( min > arr[i] )
+ #      elsif( min > arr[i] )
           
-       c = arr[i]
+ #       c = arr[i]
 
-       arr[i] = min 
+ #       arr[i] = min 
 
-      min = c
+ #      min = c
           
-      puts "min value is: #{min}"
-      puts "Maximum value is: #{max}";
+ #      puts "min value is: #{min}"
+ #      puts "Maximum value is: #{max}";
 
-    end
+ #    end
 
-  i = i + 1
+ #  i = i + 1
    
     
- end
+ # end
 
  
  
@@ -204,7 +204,37 @@
 
 # end
 
+# class Home
 
+#   @@great = "priya"
+
+#   def help
+
+#     puts "#{@@great}"
+    
+#   end
+
+  
+# end 
+
+# obj = Home.new
+
+# obj.help
+    
+class Name
+
+  @@print_name = "Priya upadhyay"
+
+  def  method
+    puts "#{@@print_name}"
+
+  end
+
+end
+
+object = Name.new 
+ 
+object.method
 
 
 

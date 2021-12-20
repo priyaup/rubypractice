@@ -34,8 +34,14 @@ arr = [1, 2, 3, 4, 5 ]
 
 #puts arr.length { give the lenght of array and size, count also give same result}
 
-#puts arr.insert(4, "Priya") { you can a new element of an array at any position}
+#puts arr.insert(4, "Priya") { you can add new element of an array at any position}
 
 #puts arr.delete_at(3) {To delete an element at a particular index}
 
-puts arr.delete(3)
+#puts arr.concat([10, 11]) { it join the given array into another array}
+
+#puts arr.cycle(5) {|x| puts x} (It iterate the array with the given range)
+
+#puts arr.delete_if {|arr| arr < 5} (it del the if condiation)
+
+

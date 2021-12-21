@@ -2,6 +2,10 @@
 
 arr = [1, 2, 3, 4, 5 ]
 
+# arr1 = ["red", "blue", "green"]
+
+# obj = [arr, arr1]
+
 #puts arr.take(3)
 
 #puts arr.drop(3)
@@ -44,4 +48,19 @@ arr = [1, 2, 3, 4, 5 ]
 
 #puts arr.delete_if {|arr| arr < 5} (it del the if condiation)
 
+#puts arr.combination(2).to_a { its give the combo of array}	
 
+#puts arr.append(3) { sama as push}
+
+#puts obj.assoc("red") { in this we can create an object then store both array after that it gives array which match for first element}
+
+#puts arr.bsearch {|x| x >= 1}
+
+# [ "a", "b", "z" ].intersection([ "a", "b", "c" ], [ "b" ])  # => [ "b" ]
+# { it give the same array elements}
+
+#puts arr.join("!") {it joins the array elements together}
+
+#a.keep_if {|v| v =~ /[aeiou]/ }    #=> ["a", "e"] {same as if}
+
+#(1..6).partition { |v| v.even? }  #=> [[2, 4, 6], [1, 3, 5]]

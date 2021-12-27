@@ -10,14 +10,20 @@
  #  puts person_info['first_name']
 
 
- person_info = {
+ # person_info = {
     
-    name: 'priya',
+ #    name: 'priya',
 
-    branch: 'csit',
+ #    branch: 'csit',
 
-    email: 'xyz@gmail.com',
+ #    email: 'xyz@gmail.com',
 
- }
+ # }
 
- puts person_info[:branch]
+ # puts person_info[:branch]
+
+
+ time1 = Time.new
+# puts "Current Time : " + time1.inspect
+
+puts time1.year

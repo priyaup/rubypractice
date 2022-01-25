@@ -1,5 +1,3 @@
-
-
 def calculate_si(principle_amount, rate, time_in_years)
 	return "Please provide valid inputs" if principle_amount.nil?
 	

@@ -66,7 +66,7 @@ arr = [1, 2, 3, 4, 5 ]
 #(1..6).partition { |v| v.even? }  #=> [[2, 4, 6], [1, 3, 5]]
 
 #{Returns two arrays, the first containing the elements of enum for 
-  #which the block evaluates to true, the second containing the rest.}
+#which the block evaluates to true, the second containing the rest.}
 
 
   

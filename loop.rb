@@ -1,3 +1,4 @@
+
 # num = 1
 # for num in(0..5)
 # 	puts num
@@ -8,7 +9,7 @@
 # i=0
 # while(i<=5)
 # 	puts i
-# 	i = i1
+# 	i = i+1
 # end
 
 
@@ -36,8 +37,8 @@
 
 #each loop
 
-colors = ["red" , "blue" , "green"]
+# colors = ["red" , "blue" , "green"]
 
-(colors).each do |color|
-   puts " #{color}"
-end
+# (colors).each do |color|
+#    puts " #{color}"
+# end

@@ -50,28 +50,28 @@
 
 #weather
 
-puts "Enter the temperature";
+# puts "Enter the temperature";
 
-temperature = gets.to_i;
+# temperature = gets.to_i;
 
-if (temperature < 0)
-  puts "Weather is freezing";
+# if (temperature < 0)
+#   puts "Weather is freezing";
 
-elsif (temperature < 10)
-	puts "Weather is very cold";
+# elsif (temperature <= 10)
+# 	puts "Weather is very cold";
 
-elsif (temperature < 20)
-	puts "Weather is cold";
+# elsif (temperature <= 20)
+# 	puts "Weather is cold";
 
-elsif (temperature < 30)
-	puts "Weather is normal";
+# elsif (temperature <= 30)
+# 	puts "Weather is normal";
 
-elsif (temperature < 40)
-	puts "Weather is hot";
+# elsif (temperature <= 40)
+# 	puts "Weather is hot";
 
-elsif (temperature >=40)
-	puts "Weather is very hot";
+# elsif (temperature >=40)
+# 	puts "Weather is very hot";
 
-else 
-	puts "error";
-end
+# else 
+# 	puts "error";
+# end

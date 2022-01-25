@@ -49,10 +49,8 @@
 # puts range
 # end
 
-def sum (a , b)
-	puts a + b
-	end
-
-	sum(20 , 5)
+# 
+str = "Priya"
+putc str
 
 
